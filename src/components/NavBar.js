@@ -45,9 +45,9 @@ const NavBar = () => {
           </Nav>
           <span className='navbar-text'>
             <div className='social-icon'></div>
-            <a href="#"><img src={navIcon1} alt="" /></a>
-            <a href="#"><img src={navIcon2} alt="" /></a>
-            <a href="#"><img src={navIcon3} alt="" /></a>
+            <a href="#"><img src={navIcon1} alt="" />home</a>
+            <a href="#"><img src={navIcon2} alt="" />loxwwww</a>
+            <a href="#"><img src={navIcon3} alt="" />breaaaa</a>
           </span>
           <button className='vvd' onClick={()=>console.log("connect")}><span>Let's connect</span></button>
         </Navbar.Collapse>
