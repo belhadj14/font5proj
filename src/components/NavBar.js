@@ -34,8 +34,9 @@ const NavBar = () => {
         <Navbar.Brand href="#home">
             <img src={logo} alt="Logo" />
         </Navbar.Brand>
-        <span className='navbar-toogler-icon'></span>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" >
+        <span className='navbar-toogler-icon'>hello</span>
+        </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" className={activeLink==='home'?'active navbar-link':'navbar-link'} onClick={()=>onUpdateActiveLink}>Home</Nav.Link>
